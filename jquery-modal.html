@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery-modal</title>
+    <link rel="stylesheet" href="jquery-modal.css"/>
+</head>
+<body>
+
+<div class="modal-outer">
+    <div data-modal-target="modal1" class="modal">modal 1</div>
+    <div data-modal-target="modal2" class="modal">modal 2</div>
+    <div data-modal-target="modal3" class="modal">modal 3</div>
+</div>
+<div class="trigger-wrap">
+    <button data-modal-trigger="modal1" data-modal-width="300" data-modal-height="300">show modal 1</button>
+    <button data-modal-trigger="modal2" data-modal-width="500" data-modal-height="400">show modal 2</button>
+    <button data-modal-trigger="modal3">show modal 3</button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="jquery-modal.js"></script>
+</body>
+</html>
